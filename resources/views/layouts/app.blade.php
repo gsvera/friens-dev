@@ -21,7 +21,7 @@
                 <li class="menu-items size-n">{{__('text.projectos')}}</li>
                 <li class="menu-items size-n">{{__('text.nosotros')}}</li>
                 <li class="menu-items size-n">{{__('text.contacto')}}</li>
-                <li class="text-white size-sm mt-1"><a class="menu-items" href="/">ES</a>|<a class="menu-items" href="/en">EN</a></li>
+                <li class="text-white size-sm mt-1"><a class="menu-items" href="/">Es</a>|<a class="menu-items" href="/en">En</a></li>
             </ul>
         </div>
     </header>

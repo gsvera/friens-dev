@@ -5,15 +5,13 @@
     --color-menu: #3B3232;
     --font-fam-titles: Arial, Helvetica, sans-serif;
     --font-fam: Verdana, Geneva, Tahoma, sans-serif;
-    --color-title: #00206B;
+    --color-title: #2186FF;
     --color-text: #666666;
 }
 .body{
-    background-color: white;
+    background-color: black;
 }
-.body-dark{
-    background-color: #514F4F ;
-}
+
 .d-none{
     display: none;
 }
@@ -30,7 +28,7 @@
     width: 90%;
     margin: 50px 5%;
     border-radius: 5px;
-    background-color: var(--color-menu);
+    /* background-color: var(--color-menu); */
     position: fixed;
 }
 .menu-logo{
@@ -79,11 +77,13 @@ li{
     list-style: none;
 }
 .paragraph{
-    margin: 25px 15%;
-    color: var(--color-text);
+    margin: 25px 10%;
+    color: white;
     font-family: var(--font-fam);
 }
 .title{
     color: var(--color-title);
     font-family: var(--font-fam-titles);
+    border-left: 3px solid var(--color-title);
+    margin-left: 10%;
 }
