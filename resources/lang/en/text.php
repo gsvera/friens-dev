@@ -1,7 +1,7 @@
 <?php
 
 return[
-    'projectos' => 'Projects',
+    'inicio' => 'Home',
     'nosotros' => 'About us',
     'contacto' => 'Contact'
 ]

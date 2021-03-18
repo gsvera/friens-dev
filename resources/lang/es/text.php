@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'projectos' => 'Projectos',
+    'inicio' => 'Inicio',
     'nosotros' => 'Nosotros',
     'contacto' => 'Contacto'
 ];

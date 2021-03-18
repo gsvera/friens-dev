@@ -22,24 +22,25 @@
     background-image: url(/img/banner.jpg);
     background-size: cover;
     width: 100%;
-    height: 350px;
+    height: 500px;
+
 }
 .menu-bar{
     width: 90%;
-    margin: 50px 5%;
+    margin-top: 0;
     border-radius: 5px;
     /* background-color: var(--color-menu); */
-    position: fixed;
 }
 .menu-logo{
-    width: 100px;
-    margin-left: 50px;
+    width: 200px;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 .menu{
     float: right;
     display: flex;
-    margin-top:20px;
-    margin-right: 100px;
+    margin-top: 5%;
+    margin-right: 50px;
 }
 .menu-items{
     list-style: none;
@@ -65,7 +66,7 @@
 .menu-items:hover{
     animation-name: link;
     animation-duration: .2s;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
@@ -77,7 +78,8 @@ li{
     list-style: none;
 }
 .paragraph{
-    margin: 25px 10%;
+    margin-top: 3%;
+    margin-left: 5%;
     color: white;
     font-family: var(--font-fam);
 }
@@ -86,4 +88,46 @@ li{
     font-family: var(--font-fam-titles);
     border-left: 3px solid var(--color-title);
     margin-left: 10%;
+    margin-top: 5%;
+}
+.Main-h1 {
+    color: white;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+.third-section{
+    background-color: #666666;
+    height: 400px;
+}
+/*.carousel.slide {
+    padding-top: 10%;
+}*/
+/*.carousel-control-prev-icon {
+    margin-top: 300px;
+}*/
+/*.carousel-control-next-icon {
+    margin-top: 300px;
+}*/
+.banner-2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+#slideImg {
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+    top: 0;
 }
