@@ -26,7 +26,35 @@
     </div>
     <div class="third-section" >
         <div class="banner-2">
-
+            <div class="item-c">
+                <img src="/img/slider_first.jpg" alt="" class="img-carousel">
+            </div>
+            <div class="item-c" style="display:none;">
+                <img src="/img/slider_second.jpg" alt="" class="img-carousel">
+            </div>
+            <div class="item-c" style="display:none;">
+                <img src="/img/slider_third.jpg" alt="" class="img-carousel">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="mr-3 ml-3" id="arrow-left">
+                <i class="fa fa-arrow-left text-white" aria-hidden="true"></i>
+            </div>
+            <div class="mr-3 ml-3" id="arrow-right">
+                <i class="fa fa-arrow-right text-white" aria-hidden="true"></i>
+            </div>
         </div>
     </div>
 @endsection
+@push('scripts')
+
+<script type="text/javascript">
+
+    $('#arrow-left').click(function(){
+        $('.item-c').animate({"margin-right":"+=100%"})
+    })
+
+</script>
+
+@endpush
+
