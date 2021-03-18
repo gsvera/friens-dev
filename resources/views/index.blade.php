@@ -49,10 +49,21 @@
 @push('scripts')
 
 <script type="text/javascript">
+    let items = document.getElementsByClassName('item-c'),
+    arrowleft = document.getElementById('arrow-left'),
+    valor = 1
+    
+    function ejecutar(valor){
+        valor2 = valor + 1
+        items[valor].style = "display:none"
+        items[valor2].style = "display:block"
+     }
 
-    $('#arrow-left').click(function(){
-        $('.item-c').animate({"margin-right":"+=100%"})
-    })
+     arrowleft.addEventListener('click', e => {
+         e.preventDefault()
+        
+         ejecutar(valor)
+     })
 
 </script>
 
